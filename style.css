@@ -1,0 +1,147 @@
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font for the entire page */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    background-image: url('img2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* This ensures the image stays fixed when scrolling. */
+    background-position: center center;
+}
+
+/* Style the header section */
+header {
+    background-color: rgb(8, 64, 8);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.yout{float: right;
+margin-top: -19px;}
+a:hover{color:rgb(8, 64, 8);}
+
+.navbar ul a:hover,
+.navbar ul a:active{
+    color:black;
+    text-decoration: underline;
+    font-size: large;
+}
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the main content sections */
+.scroll-box {
+    
+    
+    width: 700px;
+    height: 385px;
+    overflow: auto;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 20px;
+    position:absolute;
+    
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    margin-top: 30px;
+    margin: 10px;
+    background-color: beige;
+}
+ .scroll-box1{
+
+    float:right;
+    width: 650px;
+    overflow: auto;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 20px;
+    
+    left: 800px;
+    border-radius: 20px;
+    
+    position: fixed; 
+    margin-left: auto;
+    height: 80px;
+    margin-top: 330px;
+    margin-right: 30px;
+    background-color: beige;
+}
+ 
+
+
+
+/* Style the footer */
+footer {
+    background-color: rgb(8, 64, 8);
+    color: beige;
+    text-align: center;
+    padding: 10px;
+    height: 10px;
+}
+#contact{
+    background-color: beige;
+    padding: 20px;
+    
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 460px;
+}
+
+
+
+ 
+.container{
+    width: 45%;
+    height: 300px;
+    
+    padding: 1px;
+    
+    border-radius: 28px;
+    font-size: 30px;
+    position: fixed;
+    right: 35px;
+    border-color: rgb(168, 179, 153);
+
+}
+
+.container h3 {
+    text-align: center;
+    color: rgb(8 ,64,8);
+    font-size: 16px;
+}
+
+.form-group input{
+    text-align: center;
+    display: block;
+    padding: 7px 39px;
+    margin: 12px 201px;
+    font-size: 16px;
+    border: 3px solid rgb(157, 176, 157);
+    border-radius: 16px;
+}
+
+.container button {
+   
+    display: block; 
+    margin-left: 19px; 
+    width: 15%;
+    padding-right: 19px;
+    border-radius: 23px ;
+    float: right;
+    margin-top: -30px;
+    border: rgb(157, 176, 157);
+}
